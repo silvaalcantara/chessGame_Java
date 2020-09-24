@@ -9,6 +9,7 @@ public class Board {
     public Board(int rows, int colums) {
         this.rows = rows;
         this.colums = colums;
+        pieces = new Piece[rows][colums];
     }
 
     public int getRows() {
